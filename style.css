@@ -4,3 +4,156 @@
     padding: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(58, 19, 1);
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-image: url(./images/fire-7332965_1920.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+
+.Recommendation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Appetizer-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;    
+}
+
+#Appetizer-card-one{
+    border: 1px solid black;
+    background-image: url(./images/Appetizer-food-images/french-fries-2762014_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+#Appetizer-card-two{
+    border: 1px solid black;
+    background-image: url(./images/Appetizer-food-images/fried-food-735004_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;    
+}
+
+#Appetizer-card-three{
+    border: 1px solid black;
+    background-image: url(./images/Appetizer-food-images/garlic-bread-7359756_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;    
+}
+
+.Menu-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+}
+
+#Menu-card-one{
+    border: 1px solid black;
+    background-image: url(./images/Menu-food-images/pancakes-2291908_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+#Menu-card-two{
+    border: 1px solid black;
+    background-image: url(./images/Menu-food-images/fast-food-743846_640.jpg);
+    background-size: cover;
+    width: 100px;
+
+}
+
+#Menu-card-three{
+    border: 1px solid black;
+    background-image: url(./images/Menu-food-images/grilled-8042308_640.jpg);
+    background-size: cover;
+    width: 100px;
+
+}
+
+.Dessert-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;    
+}
+
+#Dessert-card-one{
+    border: 1px solid black;
+    background-image: url(./images/Dessert-food-images/apple-pie-1584260_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+#Dessert-card-two{
+    border: 1px solid black;
+    background-image: url(./images/Dessert-food-images/bowl-1932375_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;    
+}
+
+#Dessert-card-three{
+    border: 1px solid black;
+    background-image: url(./images/Dessert-food-images/food-2940496_640.jpg);
+    background-size: cover;
+    width: 100px;
+    height: 100px;    
+}
+
+.Lunch-buffé-container {
+    width: 95vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;
+    
+}
+
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
