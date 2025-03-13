@@ -54,6 +54,9 @@ nav ul{
     background-size: cover;
     width: 100px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Appetizer-card-two{
@@ -151,6 +154,15 @@ nav ul{
     
 }
 
+.Allergener-info-container{
+    width: 95vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;    
+}
 
 footer{
     background-color: black;

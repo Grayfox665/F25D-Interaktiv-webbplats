@@ -1,0 +1,22 @@
+{
+    "appetizers": [
+        {"Food_item": "Pommes","Food_price": 59, "Food_allergens": "additives", "Special_diet":"Vegan, Vegetarian" },
+        {"Food_item": "Onion Rings", "Food_price": 59, "Food_allergens":"additives", "Special_diet":"Vegan, Vegetarian"},
+        {"Food_item": "Garlic Bread", "Food_price":49, "Food_allergens":"Gluten", "Special_diet":"Vegan, Vegetarian, Gluten-free"},
+        {}
+    ],
+
+    "Maincourse": [
+        {"Food_item": "Pancakes","Food_price":79,"Food_allergens": "Gluten","Special_diet":"Gluten-free"},
+        {"Food_item": "Grilled Chicken", "Food_price":149,"Food_allergens":"Poultry Allergy", "Special_diet":"Laktoce-free, Gluten-free"},
+        {"Food_item": "Grilled Beef", "Food_price": 249, "Food_allergens": "Meat Allergy", "Special_diet":"Laktoce-free, Gluten-free"},
+        {}
+    ],
+
+    "Dessert": [
+        {"Food_item":"Apple pie","Food_price":129,"Food_allergens":"Gluten","Special_diet":"Vegetarian, Gluten-free, Lactose-Free"},
+        {"Food_item":"Ice-Cream","Food_price":99,"Food_allergens":"Lactose","Special_diet":"Vegetarian, Lactose-free"},
+        {"Food_item":"Creme brulee","Food_price":129,"Food_allergens":"Lactose","Special_diet":"Vegetarian, Lactose-free"},
+        {}
+    ]
+}
