@@ -9,7 +9,12 @@ body {
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(58, 19, 1);
-    height: 100vh;
+    height: 150vh;
+}
+
+.darkmode{
+    background-color: rgb(53, 47, 40);
+    color: whitesmoke;
 }
 
 header {
@@ -28,9 +33,38 @@ nav ul{
     padding: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
+    
 }
 
+.Introduktion-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;  
+}
 
+.History-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;     
+}
+
+.About-food-container{
+    width: 95vw;
+    height: auto;
+    border:  1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;      
+}
 
 .Recommendation-container {
     display: flex;
@@ -143,6 +177,19 @@ nav ul{
     height: 100px;    
 }
 
+.Full-menu-container{
+    width: 95vw;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: bisque;
+    padding: 5px;    
+}
+.Full-menu-types{
+    border-bottom: 1px solid black;
+}
+
 .Lunch-buffé-container {
     width: 95vw;
     height: auto;
@@ -151,7 +198,16 @@ nav ul{
     text-align: center;
     background-color: bisque;
     padding: 5px;
-    
+}
+
+#Lunch-buffé-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Lunch-buffé-container button {
+    justify-self: end;
 }
 
 .Allergener-info-container{

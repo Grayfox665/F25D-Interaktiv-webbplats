@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
+    <script src="slideShow.js" defer></script>
+    <script src="hideToggle.js" defer></script>
     <title>Main Page</title>
 </head>
 <body>
@@ -20,13 +21,48 @@
                 <li>
                     <a href="./Menu.html">Á la carte </a>
                 </li>
-                <li>lunchbuffé</li>
+                <li>
+                    <a href="#Lunch-buffé">lunchbuffé</a>
+                </li>
                 <li>kontakta</li>
             </ul>
         </nav>
     </div>
+    <div class="Restaurang-info-container">
+        <div class="Introduktion-container">
+            <div>
+                <h2>Välkommen till grill Restaurang</h2>
+            </div>
+            <div class="beskrivning">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis rerum vero dolor nostrum delectus sed temporibus nulla ullam voluptatum, aliquam sapiente esse, fugit consequatur ut. Unde cumque ullam quod consequuntur?
+                Quis dolor natus totam tenetur quod. Rerum, dolores. Id, alias autem! Necessitatibus, facilis, ab pariatur, deleniti est velit autem libero non quo aut dolore sequi voluptates modi ipsum tempora fugiat?
+                Molestias nobis unde laborum aut fuga perspiciatis aliquam repellendus, facilis repellat beatae tempore praesentium nostrum rerum consequuntur distinctio eos mollitia magnam earum deleniti eligendi libero. Quos asperiores totam saepe eius.</p>
+            </div>
+        </div>
+        <div>
+            <div class="History-container">
+                <h3>Vår historia</h3>
+                <div class="Historia">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem ea natus vel molestiae dignissimos ratione voluptate veniam iste accusamus maxime illo quam, quasi ipsam, deleniti, ex minima. Et, quasi non.
+                        Accusamus magni explicabo voluptate quaerat, quasi nisi illum perspiciatis neque quidem possimus, optio id praesentium nesciunt molestiae sint numquam totam maxime alias voluptates qui voluptas iste hic quam! Accusantium, in.
+                        Aliquam quod praesentium consequatur? Culpa consequuntur corrupti porro id odit corporis soluta expedita quod tempora numquam ipsa repellendus accusantium minus deserunt dolores dicta obcaecati labore fugit, quam commodi architecto facilis.
+                    </p>
+                </div>
+            </div>
+            <div class="About-food-container">
+                <h3>Vår mat</h3>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, molestiae sunt voluptatem nostrum autem, ipsum sapiente, corrupti recusandae expedita velit reiciendis fugit suscipit doloribus tempora debitis officia pariatur commodi excepturi.
+                    Error itaque mollitia provident odio nam aliquam ab impedit eaque pariatur sed eius voluptates dolorem tempore accusamus dignissimos doloremque nihil iusto consectetur, quo et! Voluptatem in iure unde asperiores veritatis.
+                    Ipsa, provident laborum ducimus ad deserunt quam amet ea, quae nihil fugit consectetur labore error saepe excepturi quaerat eligendi ullam quas. Porro cumque voluptatum corporis magnam totam optio vero ipsam!</p>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="Á-la-carte-container">
         <div class="Appetizer-container">
+            
             <div>
                 <h2>Förrätter</h2>
             </div>            
@@ -89,19 +125,24 @@
                 <a href="./Menu.html">Till Meny listan</a>
             </div>            
         </div>
-    </div>
-    <div class="Lunch-buffé-container">
-        <div> 
+    </div>  
+    <div class="Lunch-buffé-container" id="Lunch-buffé">
+        <div id="Lunch-buffé-title">
+            <label></label>
             <h2>lunchbuffé</h2>
+            <button onclick="hideToggle()">o</button>            
         </div>
-        <div class="Lunch-buffé-timetable">
-            <p>Måndag: 11:30 - 14:30</p>
-            <p>Tisdag: 11:30 - 14:30</p>
-            <p>Onsdag: 11:30 - 14:30</p>
-            <p>Torsdag: 11:30 - 14:30</p>
-            <p>Fredag:11:30 - 14:30</p>
-            <p>Lördag - Söndag: 12:00 - 15:00</p>
+        <div class="Lunch-buffé-menyn">
+            <div class="Lunch-buffé-timetable">
+                <p>Måndag: 11:30 - 14:30</p>
+                <p>Tisdag: 11:30 - 14:30</p>
+                <p>Onsdag: 11:30 - 14:30</p>
+                <p>Torsdag: 11:30 - 14:30</p>
+                <p>Fredag:11:30 - 14:30</p>
+                <p>Lördag - Söndag: 12:00 - 15:00</p>
+            </div>            
         </div>
+
     </div>
     <div Class="Allergener-info-container">
         <h2>Allergener</h2>

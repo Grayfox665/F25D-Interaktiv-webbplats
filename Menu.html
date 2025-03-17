@@ -20,15 +20,57 @@
                 <li>
                     <a href="./Menu.html">Á la carte </a>
                 </li>
-                <li>lunchbuffé</li>
+                <li>
+                    <a href="#Lunch-buffé-menyn">lunchbuffé</a>
+                </li>
                 <li>kontakta</li>
             </ul>
         </nav> 
     </div>
     <div>
         <div class="Full-menu-container">
+            <div>
+                <h2 class="Full-menu-types">Förrätter</h2>
+                <ul id="Appetizer-list">
 
+                </ul>
+                <br>
+                <h2 class="Full-menu-types">Varmrätter</h2>
+                <ul id="Main-course-list">
+
+                </ul>
+                <br>
+                <h2 class="Full-menu-types">Efterrätter</h2>
+                <ul id="Dessert-list">
+
+                </ul>
+            </div>
         </div>
+    </div>
+    <div class="Lunch-buffé-container">
+        <div id="Lunch-buffé-title">
+            <label></label>
+            <h2>lunchbuffé</h2>
+            <button onclick="hideToggle()">o</button>            
+        </div>
+        <div class="Lunch-buffé-menyn">
+            <div class="Lunch-buffé-timetable">
+                <p>Måndag: 11:30 - 14:30</p>
+                <p>Tisdag: 11:30 - 14:30</p>
+                <p>Onsdag: 11:30 - 14:30</p>
+                <p>Torsdag: 11:30 - 14:30</p>
+                <p>Fredag:11:30 - 14:30</p>
+                <p>Lördag - Söndag: 12:00 - 15:00</p>
+            </div>
+            <br>
+            <div class="Lunch-buffé-menu-list">
+                <h2>Lunch-menyn</h2>
+                <ul>
+
+                </ul>
+            </div>                 
+        </div>
+
     </div>
     <div Class="Allergener-info-container">
         <h2>Allergener</h2>
@@ -40,5 +82,7 @@
     <footer>
         <P>placeholder</P>
     </footer>
+    <script src="fetchMenu.js"></script>
+    <script src="hideToggle.js"></script>
 </body>
 </html>

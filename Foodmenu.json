@@ -6,17 +6,19 @@
         {}
     ],
 
-    "Maincourse": [
+    "Maincourses": [
         {"Food_item": "Pancakes","Food_price":79,"Food_allergens": "Gluten","Special_diet":"Gluten-free"},
         {"Food_item": "Grilled Chicken", "Food_price":149,"Food_allergens":"Poultry Allergy", "Special_diet":"Laktoce-free, Gluten-free"},
         {"Food_item": "Grilled Beef", "Food_price": 249, "Food_allergens": "Meat Allergy", "Special_diet":"Laktoce-free, Gluten-free"},
+        {"Food_item":"Hamburger","Food_price":159,"Food_allergens":"Gluten, Meat Allergy", "Special_diet":"Gluten-free"},
         {}
     ],
 
-    "Dessert": [
+    "Desserts": [
         {"Food_item":"Apple pie","Food_price":129,"Food_allergens":"Gluten","Special_diet":"Vegetarian, Gluten-free, Lactose-Free"},
         {"Food_item":"Ice-Cream","Food_price":99,"Food_allergens":"Lactose","Special_diet":"Vegetarian, Lactose-free"},
         {"Food_item":"Creme brulee","Food_price":129,"Food_allergens":"Lactose","Special_diet":"Vegetarian, Lactose-free"},
+        {"Food_item":"Chocolate Mousse", "Food_price":129,"Food_allergens":"additives","Special_diet":"Vegan, Vegetarian, Gluten-free"},
         {}
     ]
 }
