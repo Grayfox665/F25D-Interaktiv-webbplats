@@ -1,23 +1,4 @@
 
-
-
-    const allButton = document.getElementById("all-btn")
-    const veganButton = document.getElementById("vegan-btn")
-    const vegetarianButton = document.getElementById("vegetarian-btn")
-    const meatButton = document.getElementById("meat-btn")
-    const poultryButton = document.getElementById("poultry-btn")
-
-
-    allButton.addEventListener("click", toggleAll)
-
-    veganButton.addEventListener("click", toggleVegan)
-
-    vegetarianButton.addEventListener("click", toggleVegetarian)
-
-    meatButton.addEventListener("click", toggleMeat)
-
-    poultryButton.addEventListener("click", togglePoultry)
-
     function toggleAll() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
@@ -73,6 +54,18 @@
         toggle.forEach(toggle => {
                 toggle.style.display = "block";            
             if (toggle.classList.contains("Poultry")) {
+            } else {
+                toggle.style.display = "none";
+            }            
+        });
+
+    }
+
+    function togglePork() {
+        const toggle = document.querySelectorAll(".Food");
+        toggle.forEach(toggle => {
+                toggle.style.display = "block";            
+            if (toggle.classList.contains("Pork")) {
             } else {
                 toggle.style.display = "none";
             }            

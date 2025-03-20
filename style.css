@@ -18,22 +18,48 @@ body {
 }
 
 header {
+    width: 100%;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
     background-image: url(./images/fire-7332965_1920.jpg);
     background-size: auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+header h1{
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+nav{
+    width: 100%;
+}
+
 nav ul{
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    padding: 5px;
     background-color: rgb(0, 0, 0);
     color: white;
-    
+    list-style: none;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover{
+    background-color: rgb(68, 66, 66);
 }
 
 .Introduktion-container{
@@ -66,10 +92,19 @@ nav ul{
     padding: 5px;      
 }
 
+.Á-la-carte-container a{
+    text-decoration: none;
+}
+
 .Recommendation-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.Recommendation-container p{
+    background-color: rgb(0, 0, 0,0.6);
+    color: white;
 }
 
 .Appetizer-container{
@@ -86,8 +121,8 @@ nav ul{
     border: 1px solid black;
     background-image: url(./images/Appetizer-food-images/french-fries-2762014_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -97,16 +132,22 @@ nav ul{
     border: 1px solid black;
     background-image: url(./images/Appetizer-food-images/fried-food-735004_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Appetizer-card-three{
     border: 1px solid black;
     background-image: url(./images/Appetizer-food-images/garlic-bread-7359756_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Menu-container{
@@ -123,24 +164,31 @@ nav ul{
     border: 1px solid black;
     background-image: url(./images/Menu-food-images/pancakes-2291908_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Menu-card-two{
     border: 1px solid black;
     background-image: url(./images/Menu-food-images/fast-food-743846_640.jpg);
     background-size: cover;
-    width: 100px;
-
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Menu-card-three{
     border: 1px solid black;
     background-image: url(./images/Menu-food-images/grilled-8042308_640.jpg);
     background-size: cover;
-    width: 100px;
-
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Dessert-container{
@@ -157,24 +205,33 @@ nav ul{
     border: 1px solid black;
     background-image: url(./images/Dessert-food-images/apple-pie-1584260_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Dessert-card-two{
     border: 1px solid black;
     background-image: url(./images/Dessert-food-images/bowl-1932375_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Dessert-card-three{
     border: 1px solid black;
     background-image: url(./images/Dessert-food-images/food-2940496_640.jpg);
     background-size: cover;
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .Full-menu-container{
@@ -190,6 +247,18 @@ nav ul{
     border-bottom: 1px solid black;
 }
 
+#btn-filter-container{
+    padding: 4px;
+    
+}
+
+.filter-btn{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 15px;
+}
+
 .Lunch-buffé-container {
     width: 95vw;
     height: auto;
@@ -198,6 +267,7 @@ nav ul{
     text-align: center;
     background-color: bisque;
     padding: 5px;
+    
 }
 
 #Lunch-buffé-title{
@@ -209,6 +279,16 @@ nav ul{
 .Lunch-buffé-container button {
     justify-self: end;
 }
+
+.Lunch-buffé-timetable a{
+    text-decoration: none;
+}
+
+#Lunch-buffé-menu-list li{
+    list-style: none;
+}
+
+
 
 .Allergener-info-container{
     width: 95vw;
@@ -224,4 +304,9 @@ footer{
     background-color: black;
     color: antiquewhite;
     text-align: center;
+}
+
+footer a{
+margin: 10px;
+
 }
