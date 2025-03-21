@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="slideShow.js" defer></script>
-    <script src="hideToggle.js" defer></script>
     <title>Main Page</title>
 </head>
 <body>
@@ -32,135 +30,155 @@
             </ul>
         </nav>
     </div>
-    <div class="Restaurang-info-container">
-        <div class="Introduktion-container">
-            <div>
-                <h2>Välkommen till grill Restaurang</h2>
-            </div>
-            <div class="beskrivning">
-                <p>Inom Restaurang Grillos så tillagar vi all vår mat från produkter inköpt av lokala och ekologiska bönder och slaktare.
-                    Inom vår kök tar vår kökspersonal hand om produkterna på ett noggrant sätt dör att tillaga våra utsökta måltider för er kunder.</p>
-            </div>
-        </div>
-        <div>
-            <div class="History-container">
-                <h3>Vår historia</h3>
-                <div class="Historia">
-                    <p>
-                        Vår Restaurang grundades år XXXX av ägaren John Smith, som då sedan sin ungdom har varit inuti ett Restaurang kök och bemästrat de kunskap och råd han fick från sina kollegor.
-                        Hans stora intresse var dock att grilla, och då när han kunde ha råd så grundade han denna restaurang för att ge till er kära kunder den mest smakliga måltid som han kunde grilla!
-                        Och den Filosofin bär vi vidare som Restaurang Grillos personal!
-                    </p>
-                </div>
-            </div>
-            <div class="About-food-container">
-                <h3>Vår mat</h3>
+    <div id="block-container">
+        <div class="Restaurang-info-container">
+            <div class="Introduktion-container container-styling">
                 <div>
-                    <p>
-                        Vår mat görs av de färska produkter som man kan få från när liggande bondgårdar och slakthus som följer de ekologiska och etiska kraven.
-                        Sen så tillagar vi dessa produkter med husets blandning av kryddor och såser i ett rent köks miljö och med en blandning av moderna och traditionella köksmetoder för att få ut den utsökta smakupplevelsen som vi vill att ni kära kunder ska uppleva!
-                    </p>
+                    <h2>Välkommen till grill Restaurang</h2>
+                </div>
+                <div class="beskrivning">
+                    <p>Inom Restaurang Grillos så tillagar vi all vår mat från produkter inköpt av lokala och ekologiska bönder och slaktare.
+                        Inom vår kök tar vår kökspersonal hand om produkterna på ett noggrant sätt för att tillaga våra utsökta måltider för er kära kunder.</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="History-container container-styling">
+                    <h3>Vår historia</h3>
+                    <div class="Historia">
+                        <p>
+                            Vår Restaurang grundades år 19XX av ägaren John Doe, som då sedan sin ungdom har varit inuti ett Restaurang kök och bemästrat de kunskap och råd han fick från sina kollegor.
+                            Hans stora intresse var dock att grilla, och då när han kunde ha råd så grundade han denna restaurang för att ge till er kära kunder den mest smakliga måltid som han kunde grilla!
+                            Och den Filosofin bär vi vidare som Restaurang Grillos personal!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="About-food-container container-styling">
+                    <h3>Vår mat</h3>
+                    <div>
+                        <p>
+                            Vår mat görs av de färska produkter som man kan få från när liggande bondgårdar och slakthus som följer de ekologiska och etiska kraven.
+                            Sen så tillagar vi dessa produkter med husets blandning av kryddor och såser i ett rent köks miljö och med en blandning av moderna och traditionella köksmetoder för att få ut den utsökta smakupplevelsen som vi vill att ni kära kunder ska uppleva!
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="Á-la-carte-container">
-        <div class="Appetizer-container">
-            
-            <div>
-                <h2>Förrätter</h2>
-            </div>            
-            <div class="Recommendation-container">
 
-                <div id="Appetizer-card-one">
-                    <p>pommes Fries</p>
-                    <p>59 kr</p>
+        <div class="Á-la-carte-container">
+            <div class="slide-container container-styling" id="Appetizer-container">
+                <div>
+                    <h2>Förrätter</h2>
+                </div>            
+                <div class="Recommendation-container ">
+                    <div  id="Appetizer-card-one">
+                        <p>Pommes Fries</p>
+                        <p>59 kr</p>
+                    </div>
+                    <div  id="Appetizer-card-two">
+                        <p>Onion Rings</p>
+                        <p>69 kr</p>
+                    </div>
+                    <div  id="Appetizer-card-three">
+                    <p>Garlic Bread</p>
+                    <p>89 kr</p>
+                    </div>
                 </div>
-                <div id="Appetizer-card-two">
-                    <p>Onion Rings</p>
-                    <p>69 kr</p>
+                <br>
+                <div>
+                    <a href="./Menu.html">Till Meny listan</a>
                 </div>
-                <div id="Appetizer-card-three">
-                <p>Garlic Bread</p>
-                <p>89 kr</p>
+            </div>
+
+            <div class="slide-container container-styling" id="Menu-container">
+                <div>
+                    <h2>Varmrätter</h2>
                 </div>
+                <div class="Recommendation-container">
+                    <div  id="Menu-card-one">
+                        <p>Pancakes</p>
+                        <P>99 kr</P>
+                    </div>
+                    <div  id="Menu-card-two">
+                        <p>Grilled Chicken</p>
+                        <p>149 kr</p>
+                    </div>
+                    <div  id="Menu-card-three">
+                        <p>Grilled Beef</p>
+                        <p>249 kr</p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <a href="./Menu.html">Till Meny listan</a>
+                </div>
+            </div>
+
+            <div class="slide-container container-styling" id="Dessert-container">
+                <div>
+                    <h2>Efterrätter</h2>
+                </div>  
+                <div class="Recommendation-container">
+                    <div  id="Dessert-card-one">
+                        <p>Apple pie</p>
+                        <p>129 kr</p>
+                    </div>
+                    <div  id="Dessert-card-two">
+                        <p>ice cream</p>
+                        <p>99 kr</p>
+                    </div>
+                    <div  id="Dessert-card-three">
+                        <p>Creme brulee</p>
+                        <p>129 kr</p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <a href="./Menu.html">Till Meny listan</a>
+                </div>            
+            </div>
+
+            <div>
+            </div>
+
+            <div id="dot-container">
+                <button class="prev fa-solid fa-arrow-left" onclick="plusSlides(-1)"></button>
+
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
                 
-            </div>
-            <div>
-                <a href="./Menu.html">Till Meny listan</a>
-            </div>
-        </div>
-        <div class="Menu-container">
-            <div>
-                <h2>Varmrätter</h2>
-            </div>
-            <div class="Recommendation-container">
+                <button class="next fa-solid fa-arrow-right" onclick="plusSlides(1)"></button>                
 
-                <div id="Menu-card-one">
-                    <p>pancakes</p>
-                    <P>99 kr</P>
-                </div>
-                <div id="Menu-card-two">
-                    <p>grilled chicken</p>
-                    <p>149 kr</p>
-                </div>
-                <div id="Menu-card-three">
-                    <p>grilled beef</p>
-                    <p>249 kr</p>
-                </div>
             </div>
-            <div>
-                <a href="./Menu.html">Till Meny listan</a>
+            
+        </div>  
+        <div class="Lunch-buffé-container container-styling" id="Lunch-buffé">
+            <div id="Lunch-buffé-title">
+                <label></label>
+                <h2>lunchbuffé</h2>
+                <button class="filter-btn fa-solid fa-window-minimize" onclick="hideToggle()"></button>            
             </div>
-        </div>
-        <div class="Dessert-container">
-            <div>
-                <h2>Efterrätter</h2>
-            </div>            
-            <div class="Recommendation-container">
+            <div class="Lunch-buffé-menyn">
+                <div class="Lunch-buffé-timetable">
+                    <p>Måndag: 11:30 - 14:30</p>
+                    <p>Tisdag: 11:30 - 14:30</p>
+                    <p>Onsdag: 11:30 - 14:30</p>
+                    <p>Torsdag: 11:30 - 14:30</p>
+                    <p>Fredag:11:30 - 14:30</p>
+                    <p>Lördag - Söndag: Buffé stängd</p>
+                    <h3>Kostnad: 150kr per person</h3>
+                    <a href="Menu.html#Lunch-buffé">För mer information</a>
+                </div>          
+            </div>
 
-                <div id="Dessert-card-one">
-                    <p>Apple pie</p>
-                    <p>129 kr</p>
-                </div>
-                <div id="Dessert-card-two">
-                    <p>ice cream</p>
-                    <p>99 kr</p>
-                </div>
-                <div id="Dessert-card-three">
-                    <p>Creme brulee</p>
-                    <p>129 kr</p>
-                </div>
-            </div>
-            <div>
-                <a href="./Menu.html">Till Meny listan</a>
-            </div>            
         </div>
-    </div>  
-    <div class="Lunch-buffé-container" id="Lunch-buffé">
-        <div id="Lunch-buffé-title">
-            <label></label>
-            <h2>lunchbuffé</h2>
-            <button class="filter-btn fa-solid fa-window-minimize" onclick="hideToggle()"></button>            
+        <div Class="Allergener-info-container container-styling">
+            <h2>Allergener</h2>
+            <P>Vi på Restaurang Grillos tar hänsyn till att uppfölja de krav inom behandling av mat i köket så att det inte blir något korskontaminering av våra rätter för våra gäster med uttalande allergi besvär eller med behov av specialkost.</P>
+            <P>Om ni har behov av specialkost eller har allergi besvär så Kontakta gärna vår personal så att din måltid kan modifieras för dina behov.</P>
         </div>
-        <div class="Lunch-buffé-menyn">
-            <div class="Lunch-buffé-timetable">
-                <p>Måndag: 11:30 - 14:30</p>
-                <p>Tisdag: 11:30 - 14:30</p>
-                <p>Onsdag: 11:30 - 14:30</p>
-                <p>Torsdag: 11:30 - 14:30</p>
-                <p>Fredag:11:30 - 14:30</p>
-                <p>Lördag - Söndag: Buffé stängd</p>
-                <h3>Kostnad: 150kr per person</h3>
-                <a href="Menu.html#Lunch-buffé">För mer information</a>
-            </div>          
-        </div>
-
-    </div>
-    <div Class="Allergener-info-container">
-        <h2>Allergener</h2>
-        <P>Vi på Restaurang Grillos tar hänsyn till att uppfölja de krav inom behandling av mat i köket så att det inte blir något korskontaminering av våra rätter för våra gäster med uttalande allergi besvär eller med behov av specialkost.</P>
-        <P>Om ni har behov av specialkost eller har allergi besvär så Kontakta gärna vår personal så att din måltid kan modifieras för dina behov.</P>
     </div>
     <footer id="contacts">
         <P>Telefon: 000-XXXXXXX</P>
@@ -169,5 +187,7 @@
         <a href="" class="fa-brands fa-square-facebook"></a>
         <a href="" class="fa-solid fa-envelope"></a>
     </footer>
+    <script src="/JS/slideShow.js"></script>
+    <script src="/JS/hideToggle.js"></script>
 </body>
 </html>

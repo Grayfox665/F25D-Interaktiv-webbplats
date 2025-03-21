@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Full Menu Page</title>
@@ -31,83 +31,85 @@
             </ul>
             </nav>         
     </div>
-    <div>
-        <div class="Full-menu-container">
-            <div id="btn-filter-container">
-                <button class="filter-btn" id="all-btn" onclick="toggleAll()">all</button>
-                <button class="filter-btn" id="vegan-btn" onclick="toggleVegan()">vegan</button>
-                <button class="filter-btn" id="vegetarian-btn" onclick="toggleVegetarian()">vegetarian</button>
-                <button class="filter-btn" id="meat-btn" onclick="toggleMeat()">meat</button>
-                <button class="filter-btn" id="poultry-btn" onclick="togglePoultry()">poultry</button>
-                <button class="filter-btn" id="pork-btn" onclick="togglePork()">pork</button>                
-            </div>
-            <div>
-                <h2 class="Full-menu-types">Förrätter</h2>
-                <ul id="Appetizer-list">
+    <div id="block-container">
+        <div>
+            <div class="Full-menu-container container-styling">
+                <div id="btn-filter-container">
+                    <button class="filter-btn" id="all-btn" onclick="filterAll()">all</button>
+                    <button class="filter-btn" id="vegan-btn" onclick="filterVegan()">vegan</button>
+                    <button class="filter-btn" id="vegetarian-btn" onclick="filterVegetarian()">vegetarian</button>
+                    <button class="filter-btn" id="meat-btn" onclick="filterMeat()">meat</button>
+                    <button class="filter-btn" id="poultry-btn" onclick="filterPoultry()">poultry</button>
+                    <button class="filter-btn" id="pork-btn" onclick="filterPork()">pork</button>                
+                </div>
+                <div>
+                    <h2 class="Full-menu-types">Förrätter</h2>
+                    <ul id="Appetizer-list">
 
-                </ul>
-                <br>
-                <h2 class="Full-menu-types">Varmrätter</h2>
-                <ul id="Main-course-list">
+                    </ul>
+                    <br>
+                    <h2 class="Full-menu-types">Varmrätter</h2>
+                    <ul id="Main-course-list">
 
-                </ul>
-                <br>
-                <h2 class="Full-menu-types">Efterrätter</h2>
-                <ul id="Dessert-list">
+                    </ul>
+                    <br>
+                    <h2 class="Full-menu-types">Efterrätter</h2>
+                    <ul id="Dessert-list">
 
-                </ul>
+                    </ul>
+                </div>
             </div>
         </div>
+        <div class="Lunch-buffé-container container-styling">
+            <div id="Lunch-buffé-title">
+                <label></label>
+                <h2>lunchbuffé</h2>
+                <button class="filter-btn fa-solid fa-window-minimize" id="hide-lunch-buffe" onclick="hideToggle()"></button>            
+            </div>
+            <div class="Lunch-buffé-menyn" id="Lunch-buffé">
+                <div class="Lunch-buffé-timetable">
+                    <p>Måndag: 11:30 - 14:30</p>
+                    <p>Tisdag: 11:30 - 14:30</p>
+                    <p>Onsdag: 11:30 - 14:30</p>
+                    <p>Torsdag: 11:30 - 14:30</p>
+                    <p>Fredag:11:30 - 14:30</p>
+                    <p>Lördag - Söndag: Buffé stängd</p>
+                    <h3>Kostnad: 150kr per person</h3>
+                </div>
+                <br>
+                <div id="Lunch-buffé-menu-list">
+                    <h2>Lunch-menyn</h2>
+                    <h3>Inkluderar:</h3>
+                    <ul>
+                        <li>BBQ Ribs</li>
+                        <li>Pancakes</li>
+                        <li>Bufféburgers(Miniburgers)</li>
+                        <li>Grillspetts</li>
+                        <li>Vegansk alternativ</li>
+                    </ul>
+
+                    <br>
+                    <p>Sallad och Vatten Ingår (ej alkohol eller läsk) </p>
+                </div>                 
+            </div>
+
+        </div>
+        <div Class="Allergener-info-container container-styling">
+            <h2>Allergener</h2>
+            <P>Vi på Restaurang Grillos tar hänsyn till att uppfölja de krav inom behandling av mat i köket så att det inte blir något korskontaminering av våra rätter för våra gäster med uttalande allergi besvär eller med behov av specialkost.</P>
+            <P>Om ni har behov av specialkost eller har allergi besvär så Kontakta gärna vår personal så att din måltid kan modifieras för dina behov.</P>
+        </div>    
     </div>
-    <div class="Lunch-buffé-container">
-        <div id="Lunch-buffé-title">
-            <label></label>
-            <h2>lunchbuffé</h2>
-            <button class="filter-btn fa-solid fa-window-minimize" id="hide-lunch-buffe" onclick="hideToggle()"></button>            
-        </div>
-        <div class="Lunch-buffé-menyn" id="Lunch-buffé">
-            <div class="Lunch-buffé-timetable">
-                <p>Måndag: 11:30 - 14:30</p>
-                <p>Tisdag: 11:30 - 14:30</p>
-                <p>Onsdag: 11:30 - 14:30</p>
-                <p>Torsdag: 11:30 - 14:30</p>
-                <p>Fredag:11:30 - 14:30</p>
-                <p>Lördag - Söndag: Buffé stängd</p>
-                <h3>Kostnad: 150kr per person</h3>
-            </div>
-            <br>
-            <div id="Lunch-buffé-menu-list">
-                <h2>Lunch-menyn</h2>
-                <h3>Inkluderar:</h3>
-                <ul>
-                    <li>BBQ Ribs</li>
-                    <li>Pancakes</li>
-                    <li>Bufféburgers(Miniburgers)</li>
-                    <li>Grillspetts</li>
-                    <li>Vegansk alternativ</li>
-                </ul>
-
-                <br>
-                <p>Sallad och Vatten Ingår (ej alkohol eller läsk) </p>
-            </div>                 
-        </div>
-
-    </div>
-    <div Class="Allergener-info-container">
-        <h2>Allergener</h2>
-        <P>Vi på Restaurang Grillos tar hänsyn till att uppfölja de krav inom behandling av mat i köket så att det inte blir något korskontaminering av våra rätter för våra gäster med uttalande allergi besvär eller med behov av specialkost.</P>
-        <P>Om ni har behov av specialkost eller har allergi besvär så Kontakta gärna vår personal så att din måltid kan modifieras för dina behov.</P>
-    </div>    
-    <footer>
+    <footer id="contacts">
         <P>Telefon: 000-XXXXXXX</P>
         <p>Address: Placeholdergatan 23</p>
 
         <a href="" class="fa-brands fa-instagram"></a>
         <a href="" class="fa-brands fa-square-facebook"></a>
         <a href="" class="fa-solid fa-envelope"></a>
-    </footer id="contacts">
-    <script src="fetchMenu.js"></script>
-    <script src="hideToggle.js"></script>
-    <script src="Filtermenu.js"></script>
+    </footer>
+    <script src="/JS/fetchMenu.js"></script>
+    <script src="/JS/hideToggle.js"></script>
+    <script src="/JS/Filtermenu.js"></script>
 </body>
 </html>

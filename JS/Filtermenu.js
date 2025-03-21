@@ -1,5 +1,5 @@
 
-    function toggleAll() {
+    function filterAll() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
             if (toggle.style.display === "none") {
@@ -9,7 +9,7 @@
     }
     
 
-    function toggleVegan() {
+    function filterVegan() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle  => {
                 toggle.style.display = "block";
@@ -23,7 +23,7 @@
     }
 
 
-    function toggleVegetarian() {
+    function filterVegetarian() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
                 toggle.style.display = "block";            
@@ -36,7 +36,7 @@
 
     }
 
-    function toggleMeat() {
+    function filterMeat() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
                 toggle.style.display = "block";
@@ -49,7 +49,7 @@
 
     }
 
-    function togglePoultry() {
+    function filterPoultry() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
                 toggle.style.display = "block";            
@@ -61,7 +61,7 @@
 
     }
 
-    function togglePork() {
+    function filterPork() {
         const toggle = document.querySelectorAll(".Food");
         toggle.forEach(toggle => {
                 toggle.style.display = "block";            

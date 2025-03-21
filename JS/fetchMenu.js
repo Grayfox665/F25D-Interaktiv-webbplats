@@ -1,7 +1,7 @@
 
 function fetchMenu() {
 
-    fetch("Foodmenu.json")
+    fetch("/Json/Foodmenu.json")
     .then(response =>{
 
         return response.json();
@@ -27,14 +27,14 @@ function fetchMenu() {
 
         data.Maincourses.forEach(function(mainCourse) {
             let liTwo = document.createElement("li");
-            liTwo.textContent = mainCourse.Food_item + "...(Ingredienser kan påverka dessa allergier: " + mainCourse.Food_allergens + ").....Alternativ Specialkost: "+ mainCourse.Special_diet + "...........Pris: " + mainCourse.Food_price + "kr. ";
+            liTwo.textContent = mainCourse.Food_item + "...(Ingredienser kan påverka dessa allergier: " + mainCourse.Food_allergens + ").....Alternativ Specialkost: "+ mainCourse.Special_diet + "........Pris: " + mainCourse.Food_price + "kr. ";
             liTwo.setAttribute("class", mainCourse.Food_type);
             mainCourseList.appendChild(liTwo);
         });
 
         data.Desserts.forEach(function(dessert) {
             let liThree = document.createElement("li");
-            liThree.textContent = dessert.Food_item + "...........Pris: " + dessert.Food_price + ". ";
+            liThree.textContent = dessert.Food_item + "...(Ingredienser kan påverka dessa allergier: " + dessert.Food_allergens + ").....Alternativ Specialkost: "+ dessert.Special_diet + "........Pris: " + dessert.Food_price + ". ";
             liThree.setAttribute("class", dessert.Food_type);
             dessertList.appendChild(liThree);
         })
