@@ -1,4 +1,5 @@
 
+/* Fetches the Json file*/
 function fetchMenu() {
 
     fetch("/Json/Foodmenu.json")
@@ -8,7 +9,7 @@ function fetchMenu() {
     })
     .then(data => {
 
-
+        /*Creates the let variables to insert the Menu into the Menu.html */
         let appetizerList = document.getElementById("Appetizer-list");
         appetizerList.innerHTML = "";
 
@@ -18,6 +19,7 @@ function fetchMenu() {
         let dessertList = document.getElementById("Dessert-list");
         dessertList.innerHTML = "";
 
+        /*Inserts the appetizers */
         data.appetizers.forEach(function(appetizer) {
             let li = document.createElement("li");
             let hr = document.createElement("hr");
@@ -28,6 +30,7 @@ function fetchMenu() {
             appetizerList.appendChild(hr);
         });
 
+        /*Inserts the Maincourse */
         data.Maincourses.forEach(function(mainCourse) {
             let liTwo = document.createElement("li");
             let hrTwo = document.createElement("hr");
@@ -39,6 +42,7 @@ function fetchMenu() {
         
         });
 
+        /*Inserts the Dessert */
         data.Desserts.forEach(function(dessert) {
             let liThree = document.createElement("li");
             let hrThree = document.createElement("hr");
@@ -50,11 +54,12 @@ function fetchMenu() {
             
         })
     })
+    /*Catches any ERROR */
     .catch(error =>{
         console.error("Fel vid hämtning av JSON:", error);        
     });
 
 }
 
-
+/*Activates the function */
 fetchMenu();

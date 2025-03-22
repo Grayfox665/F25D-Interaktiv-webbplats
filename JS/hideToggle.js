@@ -1,4 +1,5 @@
 
+/*Function to hide lunch buffé info */
 
 function hideToggle() {
     const toggle = document.querySelector(".Lunch-buffé-menyn");

@@ -1,7 +1,8 @@
-
+/*creates a let variable for the slide function */
 let slideIndex = 1;
 showSlides(slideIndex);
 
+/*functions to activate the slide function */
 function plusSlides(n) {
     showSlides(slideIndex += n);
 }
@@ -9,7 +10,7 @@ function plusSlides(n) {
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
-
+/*Function to activate the next child and to hide the previous child */
 function showSlides(n) {
     let i;
     let slides = document.querySelectorAll(".slide-container");
