@@ -171,10 +171,8 @@ nav a:hover{
 
 #Appetizer-card-one{
     border: 1px solid black;
-    background-image: url(./images/Appetizer-food-images/french-fries-2762014_640.jpg);
+    background-image: url(../images/Appetizer-food-images/french-fries-2762014_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -182,10 +180,8 @@ nav a:hover{
 
 #Appetizer-card-two{
     border: 1px solid black;
-    background-image: url(./images/Appetizer-food-images/fried-food-735004_640.jpg);
+    background-image: url(../images/Appetizer-food-images/fried-food-735004_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -193,14 +189,14 @@ nav a:hover{
 
 #Appetizer-card-three{
     border: 1px solid black;
-    background-image: url(./images/Appetizer-food-images/garlic-bread-7359756_640.jpg);
+    background-image: url(../images/Appetizer-food-images/garlic-bread-7359756_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 
 #Menu-container{
 display: none;
@@ -208,10 +204,8 @@ display: none;
 
 #Menu-card-one{
     border: 1px solid black;
-    background-image: url(./images/Menu-food-images/pancakes-2291908_640.jpg);
+    background-image: url(../images/Menu-food-images/pancakes-2291908_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -219,9 +213,8 @@ display: none;
 
 #Menu-card-two{
     border: 1px solid black;
-    background-image: url(./images/Menu-food-images/fast-food-743846_640.jpg);
+    background-image: url(../images/Menu-food-images/fast-food-743846_640.jpg);
     background-size: cover;
-    /* width: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -229,13 +222,13 @@ display: none;
 
 #Menu-card-three{
     border: 1px solid black;
-    background-image: url(./images/Menu-food-images/grilled-8042308_640.jpg);
+    background-image: url(../images/Menu-food-images/grilled-8042308_640.jpg);
     background-size: cover;
-    /* width: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
+
 
 #Dessert-container{
     display: none;
@@ -243,10 +236,8 @@ display: none;
 
 #Dessert-card-one{
     border: 1px solid black;
-    background-image: url(./images/Dessert-food-images/apple-pie-1584260_640.jpg);
+    background-image: url(../images/Dessert-food-images/apple-pie-1584260_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -254,10 +245,8 @@ display: none;
 
 #Dessert-card-two{
     border: 1px solid black;
-    background-image: url(./images/Dessert-food-images/bowl-1932375_640.jpg);
+    background-image: url(../images/Dessert-food-images/bowl-1932375_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -265,10 +254,8 @@ display: none;
 
 #Dessert-card-three{
     border: 1px solid black;
-    background-image: url(./images/Dessert-food-images/food-2940496_640.jpg);
+    background-image: url(../images/Dessert-food-images/food-2940496_640.jpg);
     background-size: cover;
-    /* width: 150px;
-    height: 150px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
