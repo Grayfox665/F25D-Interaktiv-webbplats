@@ -45,6 +45,8 @@ header {
 header h1{
     font-size: 3rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: 2px 2px black;
 }
 
 /*  NAV STYLING */
@@ -154,9 +156,10 @@ nav a:hover{
     justify-content: space-around;
 }
 
-.Recommendation-container div{
+.Recommendation-container section{
     width: 150px;
     height: 150px;
+    border-radius: 5px;
 }
 
 .Recommendation-container p{
@@ -363,12 +366,10 @@ margin: 10px;
         padding: 0 15px;
     }
 
-    .Recommendation-container div{
+    .Recommendation-container section{
         width: 100px;
         height: 100px;
     }
 
-    /* .prev, .next{
-        top: 100%;
-    } */
+
 }

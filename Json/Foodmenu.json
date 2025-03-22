@@ -1,34 +1,34 @@
 {
     "appetizers": [
-        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Pommes Fries","Food_price": 59, "Food_allergens": "additives", "Special_diet":"None"},
-        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Onion Rings", "Food_price": 69, "Food_allergens":"additives", "Special_diet":"Gluten-free"},
-        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Garlic Bread", "Food_price":89, "Food_allergens":"Gluten", "Special_diet":"Gluten-free"},
-        {"Food_type": "Food Meat Poultry","Food_item": "Grilled Chicken Wings", "Food_price":89, "Food_allergens":"Poultry Allergy", "Special_diet":"Gluten-free"},
-        {"Food_type": "Food Vegetarian","Food_item":"Cheese Fries", "Food_price":89, "Food_allergens":"additives Lactose", "Special_diet":"Lactose-free"},
-        {"Food_type": "Food Vegetarian","Food_item":"Cheese Nachos", "Food_price":89, "Food_allergens":"additives Lactose", "Special_diet":"Lactose-free, Gluten-free"}
+        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Pommes Fries","Food_price": 59, "Food_allergens": "Additives", "Special_diet":"None","Food_description": "Potato Fries served with dipping of choice"},
+        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Onion Rings", "Food_price": 69, "Food_allergens":"Additives", "Special_diet":"Gluten-free", "Food_description":"Fried Onion Rings served with dipping of choice"},
+        {"Food_type": "Food Vegan Vegetarian", "Food_item": "Garlic Bread", "Food_price":89, "Food_allergens":"Gluten", "Special_diet":"Gluten-free", "Food_description":"Kitchen made Garlic Bread served hot, dip optional"},
+        {"Food_type": "Food Meat Poultry","Food_item": "Grilled Chicken Wings", "Food_price":89, "Food_allergens":"Poultry Allergy", "Special_diet":"Gluten-free","Food_description":"Wings from free-ranged chicken grilled with the kitchens own spice glaze, dip optional"},
+        {"Food_type": "Food Vegetarian","Food_item":"Cheese Fries", "Food_price":89, "Food_allergens":"Additives Lactose", "Special_diet":"Lactose-free","Food_description":"Potato Fries served with melted cheese on top, dip optional"},
+        {"Food_type": "Food Vegetarian","Food_item":"Cheese Nachos", "Food_price":89, "Food_allergens":"Additives Lactose", "Special_diet":"Lactose-free, Gluten-free","Food_description":"Kitchen made nachos served with melted cheese on top"}
     ],
 
     "Maincourses": [
-        {"Food_type": "Food Vegetarian","Food_item": "Pancakes","Food_price":99,"Food_allergens": "Gluten, Egg Allergy","Special_diet":"Gluten-free, lactose-free"},
-        {"Food_type": "Food Meat Poultry","Food_item": "Grilled Chicken", "Food_price":149,"Food_allergens":"Poultry Allergy", "Special_diet":"Gluten-free"},
-        {"Food_type": "Food Meat Beef","Food_item": "Grilled Beef", "Food_price": 249, "Food_allergens": "Meat Allergy", "Special_diet":"None"},
-        {"Food_type": "Food Meat Beef","Food_item": "Hamburger","Food_price":189,"Food_allergens":"Gluten, Meat Allergy", "Special_diet":"Gluten-free"},
-        {"Food_type": "Food Meat Lamb","Food_item": "Lamb chops", "Food_price":249,"Food_allergens":"Meat Allergy", "Special_diet":"None"},
-        {"Food_type": "Food Meat Beef Lamb","Food_item": "Meat Skewers", "Food_price": 149, "Food_allergens":"Meat Allergy", "Special_diet":"None"},
-        {"Food_type": "Food Meat Beef","Food_item":"Cheeseburger", "Food_price":189,"Food_allergens":"Gluten, Meat Allergy","Special_diet":"Gluten-free, Lactose-free"},
-        {"Food_type": "Food Vegan", "Food_item":"Veganburger", "Food_price":189,"Food_allergens":"Gluten","Special_diet":"Gluten-free"},
-        {"Food_type": "Food Vegetarian","Food_item":"Halloumi Sallad", "Food_price":149,"Food_allergens":"Lactose","Special_diet":"Lactose-free"},
-        {"Food_type": "Food Meat Poultry", "Food_item": "Chicken Sallad","Food_price":159,"Food_allergens":"Poultry Allergy","Special_diet":"None"},
-        {"Food_type": "Food Meat Beef", "Food_item": "BBQ Beef Ribs", "Food_price":249, "Food_allergens":"Meat Allergy", "Special_diet":"None"},
-        {"Food_type":"Food Meat Pork", "Food_item":"BBQ Pork Ribs", "Food_price":199, "Food_allergens":"Meat Allergy", "Special_diet":"None"},
-        {"Food_type":"Food Meat Pork","Food_item":"Pork chops", "Food_price":159, "Food_allergens":"Meat Allergy","Special_diet":"None"}
+        {"Food_type": "Food Vegetarian","Food_item": "Pancakes","Food_price":99,"Food_allergens": "Gluten, Egg Allergy","Special_diet":"Gluten-free, lactose-free","Food_description":"Pancakes served with berries and maple syrup"},
+        {"Food_type": "Food Meat Poultry","Food_item": "Grilled Chicken", "Food_price":149,"Food_allergens":"Poultry Allergy", "Special_diet":"Gluten-free","Food_description":"Free-range Chicken grilled with kitchens own spice blend and served with Pommes Fries and greens"},
+        {"Food_type": "Food Meat Beef","Food_item": "Grilled Beef", "Food_price": 249, "Food_allergens": "Meat Allergy", "Special_diet":"None","Food_description":"Beef rubbed with the kitchens own spice blend served with a side of potatoes and greens"},
+        {"Food_type": "Food Meat Beef","Food_item": "Hamburger","Food_price":189,"Food_allergens":"Gluten, Meat Allergy", "Special_diet":"Gluten-free","Food_description":"Made with kitchens own patties and hamburger buns served with a side of Potato Fries"},
+        {"Food_type": "Food Meat Lamb","Food_item": "Lamb chops", "Food_price":249,"Food_allergens":"Meat Allergy", "Special_diet":"None","Food_description":"Cuts from free-ranged lamb served with potatoe and greens"},
+        {"Food_type": "Food Meat Beef Lamb","Food_item": "Meat Skewers", "Food_price": 149, "Food_allergens":"Meat Allergy", "Special_diet":"None","Food_description":"Made from either Beef or lamb and marinated in the kitchens own spice marinade, served with Potato Fries"},
+        {"Food_type": "Food Meat Beef","Food_item":"Cheeseburger", "Food_price":189,"Food_allergens":"Gluten, Meat Allergy","Special_diet":"Gluten-free, Lactose-free","Food_description":"Made with kitchens own patties and hamburger buns with melted cheese served with a side of Potato Fries"},
+        {"Food_type": "Food Vegan", "Food_item":"Veganburger", "Food_price":189,"Food_allergens":"Gluten","Special_diet":"Gluten-free","Food_description":"A Plant-based version of a hamburger made in our kitchen"},
+        {"Food_type": "Food Vegetarian","Food_item":"Halloumi Sallad", "Food_price":149,"Food_allergens":"Lactose","Special_diet":"Lactose-free","Food_description":"A sallad served with halloumi that has been grilled"},
+        {"Food_type": "Food Meat Poultry", "Food_item": "Chicken Sallad","Food_price":159,"Food_allergens":"Poultry Allergy","Special_diet":"None","Food_description":"A sallad with grilled chicken mixed in"},
+        {"Food_type": "Food Meat Beef", "Food_item": "BBQ Beef Ribs", "Food_price":249, "Food_allergens":"Meat Allergy", "Special_diet":"None","Food_description":"Beef Ribs that has been marinated and glazed in the kitchens own blend, served with Potato Fries and greens"},
+        {"Food_type":"Food Meat Pork", "Food_item":"BBQ Pork Ribs", "Food_price":199, "Food_allergens":"Meat Allergy", "Special_diet":"None","Food_description":"Pork Ribs that has been marinated and glazed in the kitchens own blend, served with Potato Fries and greens"},
+        {"Food_type":"Food Meat Pork","Food_item":"Pork chops", "Food_price":159, "Food_allergens":"Meat Allergy","Special_diet":"None","Food_description":"Cuts of pork with the kitchens spice mix rubbed in, served with potatoe and greens"}
     ],
 
     "Desserts": [
-        {"Food_type": "Food Vegetarian","Food_item":"Apple pie","Food_price":129,"Food_allergens":"Gluten, Apple Allergy","Special_diet":"Gluten-free, Lactose-Free"},
-        {"Food_type": "Food Vegetarian","Food_item":"Ice-Cream","Food_price":99,"Food_allergens":"Lactose, Egg Allergy","Special_diet":"Lactose-free"},
-        {"Food_type": "Food Vegetarian","Food_item":"Creme brulee","Food_price":129,"Food_allergens":"Lactose","Special_diet":"Lactose-free"},
-        {"Food_type": "Food Vegan Vegetarian","Food_item":"Chocolate Mousse", "Food_price":149,"Food_allergens":"additives","Special_diet":"Gluten-free"},
-        {"Food_type":"Food Vegetarian","Food_item":"Chocolate Cake", "Food_price":149,"Food_allergens":"Lactose, Gluten","Special_diet":"Lactose-free, Gluten-free"}
+        {"Food_type": "Food Vegetarian","Food_item":"Apple pie","Food_price":129,"Food_allergens":"Gluten, Lactose, Apple Allergy","Special_diet":"Gluten-free, Lactose-Free","Food_description":"Pie made with local apples and served with whipped cream and berries"},
+        {"Food_type": "Food Vegetarian","Food_item":"Ice-Cream","Food_price":99,"Food_allergens":"Lactose, Egg Allergy, Cherry Allergy","Special_diet":"Lactose-free","Food_description":"Ice-cream served with chocolate sauce and a decorative cheery"},
+        {"Food_type": "Food Vegetarian","Food_item":"Crème brûlée","Food_price":129,"Food_allergens":"Lactose","Special_diet":"Lactose-free","Food_description":"The Kitchens own Crème brûlée"},
+        {"Food_type": "Food Vegan Vegetarian","Food_item":"Chocolate Mousse", "Food_price":149,"Food_allergens":"Lactose, Egg Allergy","Special_diet":"Lactose-free, Vegan","Food_description":"Kitchen Made Chocolate Mousse, served with whipped cream"},
+        {"Food_type":"Food Vegetarian","Food_item":"Chocolate Cake", "Food_price":149,"Food_allergens":"Lactose, Gluten","Special_diet":"Lactose-free, Gluten-free","Food_description":"Kitchen Made Chocolate Cake, served with whipped cream"}
     ]
 }

@@ -17,7 +17,7 @@
         <nav>
             <ul>
                 <li>
-                    <a href="./Main.html">Main Page</a>
+                    <a href="./Index.html">Main Page</a>
                 </li>
                 <li>
                     <a href="./Menu.html">Á la carte </a>
@@ -29,7 +29,7 @@
                     <a href="#contacts">Kontakta</a>
                 </li>
             </ul>
-            </nav>         
+        </nav>         
     </div>
     <div id="block-container">
         <div>
@@ -42,31 +42,35 @@
                     <button class="filter-btn" id="poultry-btn" onclick="filterPoultry()">poultry</button>
                     <button class="filter-btn" id="pork-btn" onclick="filterPork()">pork</button>                
                 </div>
-                <div>
+                <br>
+                <section>
                     <h2 class="Full-menu-types">Förrätter</h2>
+                    <br>
                     <ul id="Appetizer-list">
 
                     </ul>
                     <br>
                     <h2 class="Full-menu-types">Varmrätter</h2>
+                    <br>
                     <ul id="Main-course-list">
 
                     </ul>
                     <br>
                     <h2 class="Full-menu-types">Efterrätter</h2>
+                    <br>
                     <ul id="Dessert-list">
 
                     </ul>
-                </div>
+                </section>
             </div>
         </div>
-        <div class="Lunch-buffé-container container-styling">
-            <div id="Lunch-buffé-title">
+        <div class="Lunch-buffé-container container-styling" id="Lunch-buffé">
+            <section id="Lunch-buffé-title">
                 <label></label>
-                <h2>lunchbuffé</h2>
+                <h2>Lunchbuffé</h2>
                 <button class="filter-btn fa-solid fa-window-minimize" id="hide-lunch-buffe" onclick="hideToggle()"></button>            
-            </div>
-            <div class="Lunch-buffé-menyn" id="Lunch-buffé">
+            </section>
+            <div class="Lunch-buffé-menyn">
                 <div class="Lunch-buffé-timetable">
                     <p>Måndag: 11:30 - 14:30</p>
                     <p>Tisdag: 11:30 - 14:30</p>
@@ -77,8 +81,8 @@
                     <h3>Kostnad: 150kr per person</h3>
                 </div>
                 <br>
-                <div id="Lunch-buffé-menu-list">
-                    <h2>Lunch-menyn</h2>
+                <section id="Lunch-buffé-menu-list">
+                    <h2>Lunchbuffé-menyn</h2>
                     <h3>Inkluderar:</h3>
                     <ul>
                         <li>BBQ Ribs</li>
@@ -87,18 +91,19 @@
                         <li>Grillspetts</li>
                         <li>Vegansk alternativ</li>
                     </ul>
-
                     <br>
                     <p>Sallad och Vatten Ingår (ej alkohol eller läsk) </p>
-                </div>                 
+                </section>                 
             </div>
 
         </div>
-        <div Class="Allergener-info-container container-styling">
+        <section Class="Allergener-info-container container-styling">
             <h2>Allergener</h2>
+            <br>
             <P>Vi på Restaurang Grillos tar hänsyn till att uppfölja de krav inom behandling av mat i köket så att det inte blir något korskontaminering av våra rätter för våra gäster med uttalande allergi besvär eller med behov av specialkost.</P>
+            <br>
             <P>Om ni har behov av specialkost eller har allergi besvär så Kontakta gärna vår personal så att din måltid kan modifieras för dina behov.</P>
-        </div>    
+        </section>    
     </div>
     <footer id="contacts">
         <P>Telefon: 000-XXXXXXX</P>
