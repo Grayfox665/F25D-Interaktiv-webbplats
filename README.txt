@@ -18,4 +18,4 @@ Detta är min skolprojekt för Uppgift Interaktiv Webbsida
 #Användning
 
 1. Ladda ner och extrahera zipfilen.
-2. öppna ``Index.html` i din webbläsare för att se Webbplatsen.
+2. öppna `Index.html` i din webbläsare för att se Webbplatsen.
